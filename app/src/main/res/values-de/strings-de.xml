@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MovieReview</string>
+    <string name="Share">Teilen</string>
+    <string name="ExitToMain">Zurück zum Hauptmenü</string>
+    <string name="RateMovie">Film bewerten</string>
+    <string name="RateThisMovie">Bewertung speichern</string>
+</resources>

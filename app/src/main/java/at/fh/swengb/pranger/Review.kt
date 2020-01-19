@@ -1,3 +1,6 @@
 package at.fh.swengb.pranger
 
-class Review(val reviewValue : Double, val reviewtext : String)
+import com.squareup.moshi.JsonClass
+
+@JsonClass(generateAdapter = true)
+class Review(var reviewValue : Double, var reviewText : String)

@@ -1,8 +1,11 @@
 package at.fh.swengb.pranger
 
-class Movie(val id : String, val title : String, val release : String,
-            val plot : String, val genre : MovieGenre, val reviews : MutableList<Review>,
-            val actors : List<Person>, val director : Person) {
+import com.squareup.moshi.JsonClass
+
+@JsonClass(generateAdapter = true)
+open class Movie(val id : String, val title : String, val release : String,
+            val posterImagePath : String, val backdropImagePath : String,
+            var reviews : MutableList<Review>){
     fun ratingAverage() : Double {
     var average = reviews.map { it.reviewValue }.average()
 
@@ -13,4 +16,6 @@ class Movie(val id : String, val title : String, val release : String,
     return average
     }
 }
+
+
 

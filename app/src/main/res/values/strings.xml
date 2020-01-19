@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MovieReview</string>
+    <string name="Share">Share</string>
+    <string name="ExitToMain">Back to Main Menu</string>
+    <string name="RateMovie">Rate Movie</string>
+    <string name="RateThisMovie">Rate this Movie</string>
 </resources>
