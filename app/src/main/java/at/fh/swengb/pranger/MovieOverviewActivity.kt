@@ -96,8 +96,8 @@ class MovieOverviewActivity : AppCompatActivity() {
 
         }
     }
-    override fun onCreateOptionsMenu(menu2: Menu?): Boolean {
-        menuInflater.inflate(R.menu.menu2, menu2)
+    override fun onCreateOptionsMenu(menu3: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu3, menu3)
         return true
     }
     inline fun consume(f: () -> Unit): Boolean {
